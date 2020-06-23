@@ -23,6 +23,7 @@
 .startup-project-text {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .project-card-description {
