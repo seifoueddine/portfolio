@@ -285,7 +285,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contactez moi ☎️"),
   subtitle: "DISCUTER D'UN PROJET OU VOULEZ JUSTE DIRE SALUT ? MA BOÎTE DE RÉCEPTION EST OUVERTE À TOUS.",
-  number: "+213 64 47 58 20 / +33 66666666",
+  number: "+213 664 475 820 / +33 666 666 666",
   email_address: "nouaraseifeddine@gmail.com"
 };
 
