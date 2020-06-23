@@ -10,6 +10,7 @@ export default function Contact() {
          {/* <div className="row"> */}
         <div className="main contact-margin-top" id="contact">
             <div className="contact-div-main">
+            <div className="row">
                 <div className="contact-header">
                     <h1 className="heading contact-title">{contactInfo.title}</h1>
                     <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
@@ -23,11 +24,11 @@ export default function Contact() {
                         <SocialMedia/>
                     </div>
                 </div>
-                {/* <div className="contact-image-div">
-                    <img alt="Saad Working" src={require("../../assets/images/contactMail.png")}></img>
-                </div> */}
-                 <div className="image-content-profile">
-                  <img src="https://avatars1.githubusercontent.com/u/20065223?u=5250fb63df0d52dd5af06b00ad670cb8fda9e6ca&v=4" alt="Seif Eddine NOUARA" className="profile-image"/>
+              
+                 <div className="contact-image-div">
+                 <img alt="Seif Working" src={require("../../assets/images/contactMail.png")}></img>
+                  {/* <img src="https://avatars1.githubusercontent.com/u/20065223?u=5250fb63df0d52dd5af06b00ad670cb8fda9e6ca&v=4" alt="Seif Eddine NOUARA" className="profile-image"/> */}
+               </div>
                </div>
             </div>
         </div>
