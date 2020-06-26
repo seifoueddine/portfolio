@@ -159,9 +159,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   //githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubConvertedToken: 'eb04bd95ec7835e2114b00c794d9af9c870d510b' ,
+  githubConvertedToken: '598b60755c79da90d55fdcb369e33c1fd23cef5a' ,
   githubUserName: "seifoueddine", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
@@ -285,7 +285,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contactez moi ☎️"),
   subtitle: "DISCUTER D'UN PROJET OU VOULEZ JUSTE DIRE SALUT ? MA BOÎTE DE RÉCEPTION EST OUVERTE À TOUS.",
-  number: "+213 664 475 820 / +33 666 666 666",
+  number: "+213 664 475 820",
+  number2: "+33 666 666 666",
   email_address: "nouaraseifeddine@gmail.com"
 };
 
