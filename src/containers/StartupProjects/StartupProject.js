@@ -25,7 +25,7 @@ export default function StartupProject() {
               );
             })}
           </div>
-          <div className="starup-project-image"></div>
+          {/* <div className="starup-project-image"></div> */}
         </div>
       </div>
     </div>

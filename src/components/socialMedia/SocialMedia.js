@@ -46,6 +46,14 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.skype ?
+      <a href={socialMediaLinks.skype} className="icon-button skype" target="_blank">
+        <i className="fab fa-skype"></i>
+        <span></span>
+      </a>
+      :
+      null}
+{/* 
        {socialMediaLinks.instagram ?
       <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank">
         <i className="fab fa-instagram"></i>
@@ -60,7 +68,7 @@ export default function socialMedia() {
         <span></span>
       </a>
       :
-      null}
+      null} */}
 
     </div>
   );

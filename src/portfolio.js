@@ -10,7 +10,7 @@ const greeting = {
   username: "Seif Eddine Nouara",
   title: "Hi all, I'm Seif Eddine",
   subTitle: emoji("Un développeur de logiciels passionné 🚀 ayant une expérience de la création d'applications Web et mobiles avec  JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas."),
-  resumeLink: "#"
+  resumeLink: "https://drive.google.com/file/d/1mqhnBk4whOPUU4bLsuFDX_p5nQv2D4EK/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -19,9 +19,10 @@ const socialMediaLinks = {
 
   github: "https://github.com/seifoueddine",
   linkedin: "https://www.linkedin.com/in/seif-eddine-nouara%F0%9F%94%B1-b2b8b5a7/",
-  gmail: "nouaraseifeddine@gmail.com",
- // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/seifeddine.n/"
+  gmail: "contact@seifeddinenouara.com",
+//  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/seifeddine.n/",
+  skype: "nouaraseifeddine",
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -283,11 +284,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contactez moi ☎️"),
-  subtitle: "DISCUTER D'UN PROJET OU VOULEZ JUSTE DIRE SALUT ? MA BOÎTE DE RÉCEPTION EST OUVERTE À TOUS.",
-  number: "+213 664 475 820",
-  number2: "+33 666 666 666",
-  email_address: "nouaraseifeddine@gmail.com"
+  title: emoji("Contactez moi 📱 "),
+  subtitle: "DISCUTER D'UN PROJET OU VOULEZ JUSTE DIRE HI ? MA BOÎTE DE RÉCEPTION EST OUVERTE À TOUS.",
+  number: "+213 657 829 492",
+  number2: "+33 668 063 066",
+  email_address: "contact@seifeddinenouara.com"
 };
 
 //Twitter Section
