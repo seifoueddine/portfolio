@@ -47,7 +47,7 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.skype ?
-      <a href={socialMediaLinks.skype} className="icon-button skype" target="_blank">
+      <a href={`skype:${socialMediaLinks.skype}?chat`} className="icon-button skype" target="_blank">
         <i className="fab fa-skype"></i>
         <span></span>
       </a>
