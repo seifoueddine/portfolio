@@ -193,6 +193,10 @@ const bigProjects = {
     {
       image: require("./assets/images/evalutalocation.png"),
       link: "http://evaluetalocation.com/"
+    },
+    {
+      image: require("./assets/images/logo-mm-black.png"),
+      link: "https://www.mediasmonitoring.com/"
     }
   ]
 };
