@@ -22,8 +22,8 @@ export default function Greeting() {
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
-              <Button text="Contactez moi" href="#contact" />
-              <Button text="Voir mon CV" newTab={true} href={greeting.resumeLink} />
+              <Button text="contact me" href="#contact" />
+              <Button text="See my CV" newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>

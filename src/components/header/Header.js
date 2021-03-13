@@ -21,18 +21,18 @@ function Header() {
         </label>
         <ul className="menu">
           <li>
-            <a href="#skills">Compétences</a>
+            <a href="#skills">Skill</a>
           </li>
           { exp === true &&
             <li>
-              <a href="#experience">Expériences</a>
+              <a href="#experience">Experiences</a>
             </li>
           }
           {/* <li>
             <a href="#opensource">Open Source</a>
           </li> */}
           <li>
-            <a href="#projects">Projets</a>
+            <a href="#projects">Projects</a>
           </li>
           {/* <li>
             <a href="#achievements">Achievements</a>
@@ -44,7 +44,7 @@ function Header() {
             <a href="#talks">Talks</a>
           </li> */}
           <li>
-            <a href="#contact">Contactez moi</a>
+            <a href="#contact">contact me</a>
           </li>
         </ul>
       </header>

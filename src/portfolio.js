@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Seif Eddine Nouara",
   title: "Hi all, I'm Seif Eddine",
-  subTitle: emoji("Un développeur de logiciels passionné 🚀 ayant une expérience de la création d'applications Web et mobiles avec  JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas."),
-  resumeLink: "https://drive.google.com/file/d/1mqhnBk4whOPUU4bLsuFDX_p5nQv2D4EK/view?usp=sharing"
+  subTitle: emoji("A passionate software developer 🚀 with experience building web and mobile applications with JavaScript / Angular / NodeJs / Ruby on Rails / Ionic and a few other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1XL9LcMpH8hNqprohP63LlnnYa5WRkDJN/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -29,11 +29,11 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "Ce que je fais",
+  title: "What I do",
   // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  subTitle: "QUE LES DÉVELOPPEURS FULL-STACK FOUS QUI VEUT EXPLORER CHAQUE STACK TECH",
+  subTitle: "ONLY CRAZY FULL-STACK DEVELOPERS WHO WANT TO EXPLORE EVERY STACK TECH",
   skills: [
-    emoji("⚡ Développez des interfaces FrontEnd / User hautement interactives pour vos applications Web et mobiles"),
+    emoji("⚡ Develop highly interactive FrontEnd / User interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA )"),
     // emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
@@ -128,22 +128,23 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Développeur FullStack",  
+      role: "FULL STACK Developer",  
       company: "Flambosoft",
       companylogo: require("./assets/images/flmaboSoftLOGO.png"),
-      date: "Nov 2016 – Jui 2018",
-      desc: "Upgrade le site Web de la société (les pages maghreb) de RUBY ON RAILS 2 à RUBY ON RAILS 5 et utilisez FRAMEWORK CSS BOOTSTRAP avec Javascript.",
+      date: "Nov 2016 - June 2018",
+      desc: "The big think here is Upgrade the company website (Maghreb pages) from RUBY ON RAILS 2 to RUBY ON RAILS 5 and use FRAMEWORK CSS BOOTSTRAP with Javascript.",
       descBullets: [
-        "Maintenance d'applications internes pour les vendeurs ",
-        "Création d'une application (Media-Monitor): pour le classement des entreprises spécialisées dans l'achat et la vente de voitures en ALGÉRIE."
+        // "Maintenance d'applications internes pour les vendeurs ",
+        "Creation of an application (Media-Monitor): for the classification of companies specializing in the purchase and sale of cars in ALGERIA, with RUBY ON RAILS 5",
+        "Maintenance of internal applications for vendors"
       ]
     },
     {
-      role: "Développeur FrontEnd",   
+      role: "FRONT-END Developer",   
       company: "Tech-instinct",
       companylogo: require("./assets/images/techLogo.png"),
-      date: "Déc 2018 – Jan 2020",
-      desc: "Créer et développer une application (via des pistes) pour la société Viadialog en utilisant Angular 6 et Framework CSS Material et meme guider et aider des stagiaires."
+      date: "Dec 2018 - Jan 2020",
+      desc: "Create and develop an application (viaLeads) for the call centers of the company Viadialog using Angular 6 and Framework CSS Material, Guide and help interns"
     },
     // {
     //   role: "Software Engineer Intern",  
@@ -169,8 +170,8 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Grands projets",
-  subtitle: "QUELQUES ENTREPRISES QUE J'AI AIDÉ À CRÉER LEUR TECHNOLOGIE",
+  title: "Some Big Projects",
+  subtitle: "SOME COMPANIES THAT I HELPED CREATE THEIR TECHNOLOGY",
   projects: [
     {
       image: "https://media-exp1.licdn.com/dms/image/C4E0BAQH4OWrSrp69jA/company-logo_200_200/0?e=2159024400&v=beta&t=JuHx2HlAv10obtH8WqIWvyjLAm77OfQdXz9TgvlhJX8",
@@ -289,8 +290,8 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contactez moi 📱 "),
-  subtitle: "DISCUTER D'UN PROJET OU VOULEZ JUSTE DIRE HI ? MA BOÎTE DE RÉCEPTION EST OUVERTE À TOUS.",
+  title: emoji("contact me 📱 "),
+  subtitle: "DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY RECEPTION BOX IS OPEN TO ALL.",
   number: "+213 657 829 492",
   number2: "+33 668 063 066",
   email_address: "contact@seifeddinenouara.com"
