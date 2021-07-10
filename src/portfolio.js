@@ -209,6 +209,24 @@ const bigProjects = {
   ]
 };
 
+
+const bigProjects2 = {
+  projects: [
+    {
+      image: require("./assets/images/egbc.png"),
+      link: "https://evergreenbusinesscouncil.com/"
+    },
+    {
+      image: require("./assets/images/rm2r.png"),
+      link: "https://residenceseniorham.com/"
+    }
+  ]
+};
+
+
+
+
+
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
@@ -311,4 +329,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, bigProjects2, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
