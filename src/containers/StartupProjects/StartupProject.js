@@ -29,7 +29,7 @@ export default function StartupProject() {
           {/* <div className="starup-project-image"></div> */}
         </div>
 
-        <div className="startup-projects-main">
+        {/* <div className="startup-projects-main">
           <div className="startup-project-text">
             {bigProjects2.projects.map((project,i) => {
               return (
@@ -39,8 +39,8 @@ export default function StartupProject() {
               );
             })}
           </div>
-          {/* <div className="starup-project-image"></div> */}
-        </div>
+     
+        </div> */}
 
 
       </div>
