@@ -145,13 +145,6 @@ const workExperiences = {
       companylogo: require("./assets/images/techLogo.png"),
       date: "Déc 2018 - Jan 2020",
       // desc: "Create and develop an application (viaLeads) for the call centers of the company Viadialog using Angular 6 and Framework CSS Material, Guide and help interns"
-    },
-    {
-      role: "Développeur FULL STACK",   
-      company: "Norsar technologies",
-      companylogo: require("./assets/images/norsar-logo.png"),
-      date: "Fév 2020 - Présent",
-      // desc: "Create and develop an application (viaLeads) for the call centers of the company Viadialog using Angular 6 and Framework CSS Material, Guide and help interns"
     }
     // {
     //   role: "Software Engineer Intern",  
@@ -160,6 +153,14 @@ const workExperiences = {
     //   date: "Jan 2015 – Sep 2015",
     //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     // },
+  ],
+  last_experience: [
+    {
+      role: "Développeur FULL STACK",   
+      company: "Norsar technologies",
+      companylogo: require("./assets/images/norsar-logo.png"),
+      date: "Fév 2020 - Présent",
+    }
   ]
 };
 
