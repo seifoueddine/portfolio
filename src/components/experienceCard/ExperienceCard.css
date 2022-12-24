@@ -140,3 +140,52 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 600px) {
+    .experience-card {
+    border-radius: 5px;
+    }
+    .experience-banner {
+    border-radius: 5px 5px 0px 0px;
+    }
+    .experience-blurred_div {
+    border-radius: 5px 5px 0px 0px;
+    }
+    .experience-text-company {
+    font-size: 20px;
+    }
+    .experience-text-role {
+    font-size: 20px;
+    }
+    .experience-roundedimg {
+    width: 5rem;
+    height: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-text-role {
+    font-size: 18px;
+    }
+    .experience-text-company {
+    font-size: 18px;
+    }
+    .experience-text-date {
+    font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-div-company {
+    flex-direction: column;
+    align-items: center;
+    }
+    .experience-text-role {
+    padding-top: 1rem;
+    }
+    .experience-roundedimg {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    }
+}
