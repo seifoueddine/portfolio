@@ -157,11 +157,10 @@
     .experience-text-role {
     font-size: 20px;
     }
-    .experience-roundedimg {
-    position: absolute;
+    /* .experience-roundedimg {
     width: 5rem;
     height: 5rem;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
@@ -186,7 +185,9 @@
     }
     .experience-roundedimg {
     position: relative;
-    top: 0;
+    top: 31px;
     margin: 0 auto;
+    width: 5rem;
+    height: 5rem;
     }
 }
