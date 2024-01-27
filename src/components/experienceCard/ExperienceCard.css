@@ -177,17 +177,22 @@
 
 @media (max-width: 480px) {
     .experience-div-company {
-    flex-direction: column;
-    align-items: center;
+        position: relative; /* Change position to relative */
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem; /* Add padding to top for spacing */
     }
-    .experience-text-role {
-    padding-top: 1rem;
-    }
+
     .experience-roundedimg {
-    position: relative;
-    top: 31px;
-    margin: 0 auto;
-    width: 5rem;
-    height: 5rem;
+        position: relative; /* Change position to relative */
+        top: 0; /* Reset top position */
+        width: 5rem;
+        height: 5rem;
+        margin: 0 auto; /* Center the image */
+    }
+
+    .experience-banner {
+        height: auto; /* Adjust height to be automatic */
+        padding-bottom: 1rem; /* Add padding to bottom */
     }
 }
