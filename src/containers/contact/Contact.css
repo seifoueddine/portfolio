@@ -39,6 +39,12 @@
     margin-top: 4rem;
 }
 
+@media (max-width: 768px) {
+    .contact-margin-top {
+        margin-top: 0px;
+    }
+  }
+
 .contact-image-div > img {
     max-width: 100%;
     height: auto;

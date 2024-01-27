@@ -1,32 +1,54 @@
 .project-title {
-  font-size: 52px;
+  font-size: 52px; /* Default font size */
   font-weight: 400;
   line-height: normal;
 }
 
-.startup-project-text img{
+.startup-project-text img {
   max-width: 100%;
-  height: auto;
+  height: auto; /* Ensures images are responsive */
 }
 
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
+  gap: 1em; /* Using em makes the gap responsive to font size */
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .project-title {
-    font-size: 40px;
-  }
+/* Responsive button styles */
+.project-button {
+  padding: 10px 20px; /* Default padding */
+  font-size: 1em; /* Default font size */
 }
+
+/* Media Query for smaller screens */
 @media (max-width: 768px) {
   .project-title {
     font-size: 30px;
     text-align: center;
   }
-  .repo-cards-div-main{
+
+  .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+
+  /* Adjust button size for better mobile interaction */
+  .project-button {
+    padding: 12px 24px;
+    font-size: 1.2em;
+  }
 }
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+  .project-title {
+    font-size: 24px;
+  }
+
+  /* Further reduce the button size on very small screens */
+  .project-button {
+    padding: 15px 30px;
+    font-size: 1.4em;
+  }
+}
+
