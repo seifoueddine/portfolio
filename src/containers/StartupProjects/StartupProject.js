@@ -1,7 +1,6 @@
 import React from "react";
 import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
-import { bigProjects2 } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function StartupProject() {

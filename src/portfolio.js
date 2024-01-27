@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Seif Eddine Nouara",
   title: "Salut à tous, je suis Seif Eddine",
-  subTitle: emoji("Un développeur de logiciels passionné 🚀 avec une bonne maîtrise dans la création d'applications Web et mobiles avec JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas."),
+  subTitle: "Un développeur de logiciels passionné 🚀 avec une bonne maîtrise dans la création d'applications Web et mobiles avec JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas.",
   resumeLink: "https://drive.google.com/file/d/1XL9LcMpH8hNqprohP63LlnnYa5WRkDJN/view?usp=sharing"
 };
 
@@ -33,8 +33,8 @@ const skillsSection = {
   // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   subTitle: "SEULS LES DÉVELOPPEURS FULL-STACK FOUS QUI VEULENT EXPLORER CHAQUE STACK TECH",
   skills: [
-    emoji("⚡ Développe des interfaces FrontEnd hautement interactives pour vos applications web et mobiles"),
-    emoji("⚡ Applications Web progressives ( PWA )"),
+    "⚡ Développe des interfaces FrontEnd hautement interactives pour vos applications web et mobiles",
+    "⚡ Applications Web progressives ( PWA )",
     // emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
@@ -213,6 +213,10 @@ const bigProjects = {
     {
       image: require("./assets/images/picture.jpeg"),
       link: "https://www.solocal.com/"
+    },
+    {
+      image: require("./assets/images/afd.png"),
+      link: "https://www.afd.fr/fr/le-groupe-afd" 
     }
 
   ]
@@ -324,7 +328,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contactez moi 📱 "),
+  title: "Contactez moi 📱 ",
   subtitle: "DISCUTER D'UN PROJET OU SIMPLEMENT DIRE BONJOUR ? MA BOÎTE DE RÉCEPTION EST OUVERTE À TOUS.",
   number: "+33 749 045 986",
   email_address: "contact@seifeddinenouara.com"
