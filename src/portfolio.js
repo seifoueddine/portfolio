@@ -197,10 +197,10 @@ const bigProjects = {
     },
     
     
-    {
-      image: "https://zidneybac.com/wp-content/uploads/2021/12/cropped-logo_-120x68.png",
-      link: "https://zidneybac.com/index.php"
-    },
+    // {
+    //   image: "https://zidneybac.com/wp-content/uploads/2021/12/cropped-logo_-120x68.png",
+    //   link: "https://zidneybac.com/index.php"
+    // },
 
     // {
     //   image: require("./assets/images/evalutalocation.png"),
@@ -213,6 +213,10 @@ const bigProjects = {
     {
       image: require("./assets/images/picture.jpeg"),
       link: "https://www.solocal.com/"
+    },
+    {
+      image: "https://pbs.twimg.com/profile_images/1184021549168431106/ITWrl0z1_400x400.png",
+      link: "https://www.ovhcloud.com/" 
     },
     {
       image: require("./assets/images/afd.png"),
