@@ -1,5 +1,5 @@
 import React from "react";
-import "./StartupProjects.css";
+import "./StartupProjects.scss";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 
@@ -20,7 +20,13 @@ export default function StartupProject() {
             {bigProjects.projects.map((project,i) => {
               return (
                 <div className="saaya-health-div" key={i} onClick={() => openProjectInNewWindow(project.link)}>
-                  <img alt="Seif eddine Working" src={project.image}></img>
+                  {/* <img alt="Seif eddine Working" src={project.image}></img> */}
+                  <img
+             
+                className="education-roundedimg"
+                src={project.image}
+                alt="Seif eddine messions"
+                 />
                 </div>
               );
             })}

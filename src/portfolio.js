@@ -121,6 +121,39 @@ const techStack = {
   ]
 };
 
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "ESGI",
+      logo: require("./assets/images/esgi.jpg"),
+      subHeader: "Bachelor's degree, administrateur réseaux et systèmes",
+      duration: "Sept 2017 - Avril 2019",
+      desc: "",
+      descBullets: [
+      ]
+    },
+    {
+      schoolName: "Université de Bejaia",
+      logo: require("./assets/images/bejaia.jpg"),
+      subHeader: "Master en mathematiques appliquées",
+      duration: "Sept 2013 - Juin 2016",
+      desc: "",
+      descBullets: []
+    },
+    {
+      schoolName: "Université de Bejaia",
+      logo: require("./assets/images/bejaia.jpg"),
+      subHeader: "Licence en mathematiques appliquées",
+      duration: "Sept 2010 - Juin 2013",
+      desc: "",
+      descBullets: []
+    }
+  ]
+};
+
 
 // Your top 3 work experiences
 
@@ -182,11 +215,11 @@ const bigProjects = {
   subtitle: "QUELQUES ENTREPRISES QUE J'AI AIDÉES À CRÉER LEUR TECHNOLOGIE",
   projects: [
     {
-      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQH4OWrSrp69jA/company-logo_200_200/0?e=2159024400&v=beta&t=JuHx2HlAv10obtH8WqIWvyjLAm77OfQdXz9TgvlhJX8",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR92_5foM_71zykwnBx_PEuI5Z3DbbOatS_8CXunLd9og&s",
       link: "https://www.lespagesmaghreb.com/"
     },
     {
-      image: "https://viadialog.com/wp-content/uploads/2021/03/Logo-site.png",
+      image: "https://ultra-saas.com/sites/default/files/styles/logo_solution_saas/public/viadialog_lgoo.png?itok=5Jz5QiNx",
       link: "https://www.viadialog.com/produits/vialeads/"
     }
    
@@ -206,16 +239,16 @@ const bigProjects = {
     //   image: require("./assets/images/evalutalocation.png"),
     //   link: "http://evaluetalocation.com/"
     // },
-    {
-      image: "https://www.mediasmonitoring.com/logo-mm-black.png",
-      link: "https://www.mediasmonitoring.com/"
-    },
+    // {
+    //   image: "https://www.mediasmonitoring.com/logo-mm-black.png",
+    //   link: "https://www.mediasmonitoring.com/"
+    // },
     {
       image: require("./assets/images/picture.jpeg"),
       link: "https://www.solocal.com/"
     },
     {
-      image: "https://pbs.twimg.com/profile_images/1184021549168431106/ITWrl0z1_400x400.png",
+      image: "https://offres.itg.fr/wp-content/uploads/2022/07/ovhcloud-logo-1.png",
       link: "https://www.ovhcloud.com/" 
     },
     {
@@ -287,18 +320,23 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "AVEC UNE PASSION 💖 POUR CRÉER DES CHOSES INTÉRESSANTES 🛠️, JE PRENDS PLAISIR À RÉDIGER ET À PARTAGER MES CONNAISSANCES 📚 AVEC AUTRUI.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://medium.com/@Seif_Eddine.N/setting-up-single-sign-on-sso-with-a-cas-server-in-a-ruby-on-rails-api-using-devise-as-well-as-779976399803",
+      title: "Mise en œuvre de l'authentification unique (SSO) à l'aide d'un serveur CAS dans une API Ruby on Rails avec Devise et une application Angular",
+      description: "Cet article propose un guide étape par étape sur comment mettre en place un système d'authentification unique (Single Sign-On, SSO) pour sécuriser les accès à une application web. Il se concentre sur l'intégration d'un serveur CAS (Central Authentication Service) avec une API développée en Ruby on Rails"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@Seif_Eddine.N/rainbow-sdk-and-angular-seamless-video-audio-calls-and-chat-integration-adf0a7509c1b",
+      title: "SDK Rainbow et Angular : Intégration des appels vidéo, audio et du chat",
+      description: "Cet article présente une méthode détaillée pour intégrer des fonctionnalités de communication avancées telles que les appels vidéo, les appels audio et le chat dans vos applications web en utilisant le SDK Rainbow avec Angular."
+    },
+    {
+      url: "https://medium.com/@Seif_Eddine.N/introduction-to-dry-rb-bd7755348094",
+      title: "Introduction à dry-rb",
+      description: "Dry-rb est une collection de bibliothèques Ruby de nouvelle génération destinée à vous aider à écrire des programmes clairs, flexibles et modulables."
     }
   ]
 };
@@ -345,4 +383,8 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, bigProjects2, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+const illustration = {
+  animated: true // Set to false to use static SVG
+};
+export { illustration, educationInfo, greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, bigProjects2, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
