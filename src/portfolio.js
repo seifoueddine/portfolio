@@ -10,7 +10,7 @@ const greeting = {
   username: "Seif Eddine Nouara",
   title: "Salut à tous, je suis Seif Eddine",
   subTitle: "Un développeur de logiciels passionné 🚀 avec une bonne maîtrise dans la création d'applications Web et mobiles avec JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas.",
-  resumeLink: "https://drive.google.com/file/d/17LDqgFnxkQTSUvUqCplePyDibUYXMWgp/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1Kk9d2x0L_6xNaCZxbbLfsXHevzmaY_zj/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -192,7 +192,7 @@ const workExperiences = {
       role: "Développeur FULL STACK",   
       company: "Norsar technologies",
       companylogo: require("./assets/images/norsar-logo.png"),
-      date: "Fév 2020 - Présent",
+      date: "Juin 2021 - Présent",
     }
   ]
 };

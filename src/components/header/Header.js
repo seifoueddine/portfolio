@@ -37,10 +37,10 @@ function Header() {
           {/* <li>
             <a href="#achievements">Achievements</a>
           </li> */}
-          {/* <li>
+           <li>
             <a href="#blogs">Blogs</a>
           </li>
-          <li>
+         {/* <li>
             <a href="#talks">Talks</a>
           </li> */}
           <li>
