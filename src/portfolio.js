@@ -10,7 +10,7 @@ const greeting = {
   username: "Seif Eddine Nouara",
   title: "Salut à tous, je suis Seif Eddine",
   subTitle: "Un développeur de logiciels passionné 🚀 avec une bonne maîtrise dans la création d'applications Web et mobiles avec JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas.",
-  resumeLink: "https://drive.google.com/file/d/1r1XXlqYtYRQu4SyDaaoI1iMa2Z-08f58/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1bH4_MHtT-fe8T2YNpIgigtdpzwR-Cl25/view?usp=sharing"
 };
 
 // Your Social Media Link
