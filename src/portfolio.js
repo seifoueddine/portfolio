@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Seif Eddine Nouara",
   title: "Salut à tous, je suis Seif Eddine",
-  subTitle: "Un développeur de logiciels passionné 🚀 avec une bonne maîtrise dans la création d'applications Web et mobiles avec JavaScript / Angular / NodeJs / Ruby on Rails / Ionic et quelques autres bibliothèques et frameworks sympas.",
+  subTitle: "Un développeur de logiciels passionné 🚀 avec une bonne maîtrise dans la création d'applications Web et mobiles avec Ruby on Rails / JavaScript / Angular  / Ionic et quelques autres bibliothèques et frameworks sympas.",
   resumeLink: "https://drive.google.com/file/d/1bH4_MHtT-fe8T2YNpIgigtdpzwR-Cl25/view?usp=sharing"
 };
 
@@ -18,7 +18,7 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/seifoueddine",
-  linkedin: "https://www.linkedin.com/in/seif-eddine-nouara/",
+  linkedin: "https://www.linkedin.com/in/seCe que je faisif-eddine-nouara/",
   gmail: "contact@seifeddinenouara.com",
 //  gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/seifeddine.n/",
@@ -192,7 +192,13 @@ const workExperiences = {
       role: "Développeur FULL STACK",   
       company: "Norsar technologies",
       companylogo: require("./assets/images/norsar-logo.png"),
-      date: "Juin 2021 - Présent",
+      date: "Juin 2021 - Nov 2024 ",
+    },
+    {
+      role: "Développeur FULL STACK",   
+      company: "Segula technologies",
+      companylogo: require("./assets/images/segula.png"),
+      date: "Déc 2024 - Présent",
     }
   ]
 };
