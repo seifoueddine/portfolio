@@ -22,7 +22,7 @@ const socialMediaLinks = {
   gmail: "contact@seifeddinenouara.com",
 //  gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/seifeddine.n/",
-  skype: "nouaraseifeddine",
+  //skype: "nouaraseifeddine",
   // Instagram and Twitter are also supported in the links!
 };
 
