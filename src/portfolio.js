@@ -108,7 +108,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "85%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -260,6 +260,10 @@ const bigProjects = {
     {
       image: require("./assets/images/afd.png"),
       link: "https://www.afd.fr/fr/le-groupe-afd" 
+    },
+    {
+      image: require("./assets/images/kamatz_logo.jpeg"),
+      link: "https://kamatz.com/" 
     }
 
   ]
